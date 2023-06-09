@@ -3,15 +3,15 @@
     font-size:x-large;
 }
 
-@media (min-width: 410px) {
+@media (min-width: 700px) {
     .container {
-        margin-top: 10%;
+        margin-top: 15%;
         display: flex;
         justify-content: space-evenly
     }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 700px) {
     .container {
         margin-top: 20%;
     }
