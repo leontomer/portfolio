@@ -3,15 +3,15 @@
     font-size:x-large;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 410px) {
     .container {
-        margin-top: 15%;
+        margin-top: 11%;
         display: flex;
         justify-content: space-evenly
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 410px) {
     .container {
         margin-top: 20%;
     }
@@ -20,14 +20,14 @@
 
 @media (min-height: 350px) {
 img {
-    width: 250px;
-    height: 230px;
+    max-width: 250px;
+    max-height: 230px;
     }
 }
 
 @media (max-height: 350px) {
     img {
-        width: 250px;
-        height: 200px;
+        max-width: 250px;
+        max-height: 200px;
         }
     }
