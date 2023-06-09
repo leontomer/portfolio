@@ -1,6 +1,4 @@
 .container{
-    display: flex;
-    justify-content: space-evenly;
     margin-top: 10%;
 }
 
@@ -8,3 +6,27 @@
     font-family: cursive;
     font-size:x-large;
 }
+
+@media (min-width: 1200px) {
+    .container {
+        display: flex;
+        justify-content: space-evenly
+    }
+
+}
+
+@media (min-width: 1200px) {
+img {
+    max-width: 250px;
+    max-height: 230px;
+    }
+}
+
+@media (max-width: 1200px) {
+    img {
+        width: 150px;
+        height: 150px;
+        background-color: none;
+        border: none;
+        }
+    }

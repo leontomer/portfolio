@@ -8,12 +8,7 @@ const Home = () => {
     <div className="container">
       <div>
         <Card variant="outlined" sx={{ maxHeight: 230 }}>
-          <img
-            src={imgUrl}
-            width="250"
-            height="230"
-            alt="Picture of the author"
-          />
+          <img src={imgUrl} alt="Picture of the author" />
         </Card>
       </div>
       <div>
