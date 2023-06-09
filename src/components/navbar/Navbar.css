@@ -1,0 +1,19 @@
+a{
+    text-decoration:none;
+    color: black;
+    text-shadow: 0cap;
+    font-weight: 600;
+
+}
+/* .container {
+    display: flex;
+    align-items: flex-end;
+} */
+
+.link{
+    margin-left: 2%;
+}
+
+.link1{
+    margin-left: 40%;
+}

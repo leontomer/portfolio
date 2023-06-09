@@ -1,0 +1,14 @@
+.projects-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-desc{
+    margin-top: 5px;
+}

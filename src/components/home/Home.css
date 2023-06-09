@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.desc{
+    font-family: cursive;
+    font-size:x-large;
+}
