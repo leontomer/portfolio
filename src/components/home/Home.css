@@ -18,14 +18,14 @@
 
 }
 
-@media (min-width: 410px) {
+@media (min-height: 350px) {
 img {
     max-width: 250px;
     max-height: 230px;
     }
 }
 
-@media (max-width: 300px) {
+@media (max-height: 350px) {
     img {
         max-width: 250px;
         max-height: 200px;
