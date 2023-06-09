@@ -9,16 +9,14 @@ const ContactMe = () => {
   return (
     <div className="contact-container">
       <span>
-        <LinkedInIcon fontSize="large">
-          <a href="https://www.linkedin.com/in/tomer-leon-react-developer/"></a>
-        </LinkedInIcon>
         <a href="https://www.linkedin.com/in/tomer-leon-react-developer/">
+          <LinkedInIcon fontSize="large" />
           <div className="contact-info">{myName}</div>
         </a>
       </span>
       <span className="next-contact">
-        <AlternateEmailIcon fontSize="large" />
-        <a href={"mailto:leontomer@gmail.com"}>
+        <a href="mailto:leontomer@gmail.com">
+          <AlternateEmailIcon fontSize="large" />
           <div>{myEmail}</div>
         </a>
       </span>
