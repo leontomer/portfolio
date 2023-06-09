@@ -5,7 +5,7 @@
 
 @media (min-width: 410px) {
     .container {
-        margin-top: 11%;
+        margin-top: 12%;
         display: flex;
         justify-content: space-evenly
     }
@@ -27,7 +27,7 @@ img {
 
 @media (max-height: 350px) {
     img {
-        max-width: 250px;
-        max-height: 200px;
+        max-width: 230px;
+        max-height: 170px;
         }
     }
