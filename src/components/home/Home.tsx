@@ -7,7 +7,10 @@ const Home = () => {
   return (
     <div className="container">
       <div>
-        <Card variant="outlined" sx={{ maxHeight: 230 }}>
+        <Card
+          variant="outlined"
+          sx={{ maxHeight: 230, background: "none", border: "none" }}
+        >
           <img src={imgUrl} alt="Picture of the author" />
         </Card>
       </div>

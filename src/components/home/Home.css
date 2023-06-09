@@ -1,7 +1,3 @@
-.container{
-    margin-top: 10%;
-}
-
 .desc{
     font-family: cursive;
     font-size:x-large;
@@ -9,8 +5,15 @@
 
 @media (min-width: 1200px) {
     .container {
+        margin-top: 10%;
         display: flex;
         justify-content: space-evenly
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        margin-top: 20%;
     }
 
 }
@@ -26,7 +29,5 @@ img {
     img {
         width: 150px;
         height: 150px;
-        background-color: none;
-        border: none;
         }
     }

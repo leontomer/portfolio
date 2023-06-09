@@ -10,6 +10,9 @@ a {
     margin-left: 2%;
 }
 
-.link1 {
-    margin-left: 35%;
+
+@media (min-width: 1200px) {
+    .link1 {
+        margin-left: 40%;
+    }
 }
