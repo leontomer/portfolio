@@ -20,14 +20,14 @@
 
 @media (min-height: 350px) {
 img {
-    max-width: 250px;
-    max-height: 230px;
+    width: 250px;
+    height: 230px;
     }
 }
 
 @media (max-height: 350px) {
     img {
-        max-width: 250px;
-        max-height: 200px;
+        width: 250px;
+        height: 200px;
         }
     }
