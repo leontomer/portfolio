@@ -11,7 +11,7 @@ a {
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 500px) {
     .link1 {
         margin-left: 40%;
     }

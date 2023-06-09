@@ -3,13 +3,13 @@
     justify-content: space-evenly;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 500px) {
     .contact-container {
         margin-top: 20%;
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 500px) {
     .contact-container {
         margin-top: 40%;
     }

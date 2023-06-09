@@ -3,7 +3,7 @@
     font-size:x-large;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 410px) {
     .container {
         margin-top: 10%;
         display: flex;
@@ -11,21 +11,21 @@
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 410px) {
     .container {
         margin-top: 20%;
     }
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 410px) {
 img {
     max-width: 250px;
     max-height: 230px;
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 410px) {
     img {
         width: 150px;
         height: 150px;
