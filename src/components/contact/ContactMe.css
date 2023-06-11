@@ -2,18 +2,10 @@
     display: flex;
     justify-content: space-evenly;
 }
-
-@media (min-width: 500px) {
-    .contact-container {
-        margin-top: 20%;
-    }
+.contact-container {
+    margin-top: 10%;
 }
 
-@media (max-width: 500px) {
-    .contact-container {
-        margin-top: 40%;
-    }
-}
 
 .next-contact {
     margin-left: 10px;

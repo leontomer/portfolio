@@ -34,9 +34,6 @@ const Navbar = () => {
           <a className="link" href="/recommendations">
             {Recommendations}
           </a>
-          <a className="link" href="/contact">
-            {contact}
-          </a>
         </Toolbar>
       </AppBar>
     </Box>
