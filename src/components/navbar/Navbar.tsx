@@ -2,7 +2,13 @@ import React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-import { about, projects, resume, contact } from "../../Constants";
+import {
+  about,
+  projects,
+  resume,
+  Recommendations,
+  contact,
+} from "../../Constants";
 import "./Navbar.css";
 
 // type Props = { children: React.ReactNode };
@@ -24,6 +30,9 @@ const Navbar = () => {
           </a>
           <a className="link" href="/resume">
             {resume}
+          </a>
+          <a className="link" href="/recommendations">
+            {Recommendations}
           </a>
           <a className="link" href="/contact">
             {contact}

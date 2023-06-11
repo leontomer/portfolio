@@ -21,3 +21,4 @@ export const about: string = "About";
 export const projects: string = "Projects";
 export const resume: string = "Resume";
 export const contact: string = "Contact";
+export const Recommendations: string = "Recommendations";

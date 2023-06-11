@@ -6,6 +6,7 @@ import Resume from "./components/resume/Resume";
 import Projects from "./components/projects/Projects";
 import ContactMe from "./components/contact/ContactMe";
 import Background from "./components/background/Background";
+import Recommendations from "./components/recommendations/Recommendations";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<ContactMe />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/recommendations" element={<Recommendations />} />
       </Routes>
     </Router>
   );
