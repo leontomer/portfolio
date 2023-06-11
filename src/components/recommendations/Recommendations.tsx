@@ -1,10 +1,9 @@
 import React from "react";
+import "./Recommendations.css";
 
-type Props = {};
-
-const Recommendations = (props: Props) => {
+const Recommendations = () => {
   return (
-    <div>
+    <div className="recommendations">
       <iframe
         src="https://widgets.sociablekit.com/linkedin-recommendations/iframe/153275"
         width="100%"
